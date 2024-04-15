@@ -5,3 +5,8 @@
     right:5em;
     pointer-events: none;
 }
+
+.carousel-contain-size{
+    width:80rem;
+    
+}
