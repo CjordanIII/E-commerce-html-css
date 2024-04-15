@@ -22,3 +22,14 @@
 .text-peach{
     color: #DB4444;
 }
+
+.text-gray{
+    
+    background-color: black ;
+    
+    color:#F5F5F5;
+}
+
+.icon-scale{
+    scale:2;
+}
