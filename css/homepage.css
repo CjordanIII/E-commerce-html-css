@@ -10,3 +10,15 @@
     width:80rem;
     
 }
+
+.red-blob{
+    width:1.875rem;
+    height: 3.125rem;
+    background-color:#DB4444;
+    border-radius: 0.625rem;
+  
+}
+
+.text-peach{
+    color: #DB4444;
+}

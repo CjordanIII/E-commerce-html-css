@@ -119,7 +119,9 @@
 .padding-bottom-xl {
     padding-bottom: 3em;
 }
-
+.padding-bottom-xxl{
+    padding-bottom:10em;
+}
 .padding-left-xs {
     padding-left: .25em;
 }
@@ -202,7 +204,9 @@
 .margin-y-xl {
     margin: 0 3em;
 }
-
+.margin-top-xl-{
+    margin-top: -1.5em;
+}
 .margin-top-xs {
     margin-top: .25em;
 }
@@ -263,6 +267,10 @@
     margin-bottom: 3em;
 }
 
+.margin-bottom-xxl{
+    margin-bottom:10em;
+}
+
 .margin-left-xs {
     margin-left: .25em;
 }
@@ -281,4 +289,7 @@
 
 .margin-left-xl {
     margin-left: 3em;
+}
+.margin-left-xxl{
+    margin-left: 8.5em;
 }
