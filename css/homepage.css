@@ -59,7 +59,7 @@
 .card-overflow{
     height: 50rem;
     width:90rem;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 
 
@@ -75,3 +75,7 @@
 .line{
     width:90rem;
 }
+
+/* ------- Category------- */
+/* cards container */
+
