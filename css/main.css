@@ -1,3 +1,6 @@
+
+
+
 .padding-xs {
     padding: .25em;
 }
@@ -245,6 +248,10 @@
 
 .margin-right-xl {
     margin-right: 3em;
+}
+
+.margin-right-xxl{
+    margin-left:50em;
 }
 
 .margin-bottom-xs {

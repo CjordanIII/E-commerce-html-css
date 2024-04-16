@@ -1,3 +1,7 @@
+:root{
+    --tertiary-color:#DB4444
+}
+
 .search  {
     position: absolute;
     top: 50%;
@@ -10,26 +14,64 @@
     width:80rem;
     
 }
-
+/* next to lower title */
 .red-blob{
     width:1.875rem;
     height: 3.125rem;
-    background-color:#DB4444;
+    background-color:var(--tertiary-color);
     border-radius: 0.625rem;
   
 }
-
+/* arrows */
 .text-peach{
-    color: #DB4444;
+    color: var(--tertiary-color);
 }
 
-.text-gray{
-    
-    background-color: black ;
-    
-    color:#F5F5F5;
+.bg-color-grey{
+    border-radius: 50%;
+    background-color:#F5F5F5;
+    width: 1.875rem;
+    height: 1.875rem;
 }
 
 .icon-scale{
     scale:2;
+}
+
+.center-left{
+    position: relative;
+    bottom: .14em;
+    left: .1em;
+}
+
+.center-right{
+    position: relative;
+    left:.1em;
+    bottom:.14em;
+}
+
+.hidden{
+    visibility:hidden;
+}
+
+/* card group */
+
+.card-overflow{
+    height: 50rem;
+    width:90rem;
+    overflow-x: scroll;
+}
+
+
+/* view all products btn*/
+
+.btn-peach{
+    background-color: var(--tertiary-color);
+    color: white;
+}
+
+/* hr (line) */
+
+.line{
+    width:90rem;
 }
