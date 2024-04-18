@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is an e-commerce website developed using [insert technologies/frameworks used]. It allows users to browse products, add them to the cart, and proceed with the checkout process.
+This project is an e-commerce website developed with just html css and bootstrap go here for a live view [Visit my live demo website](https://e-commerce-html-css.netlify.app)
 
 ## Features
 
@@ -33,9 +33,4 @@ This project is an e-commerce website developed using [insert technologies/frame
 
 ## License
 
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- [Credits to any libraries, frameworks, or resources used]
-- [Any other acknowledgements]
+This project is licensed under the [MIT] - see the [LICENSE](LICENSE) file for details.
