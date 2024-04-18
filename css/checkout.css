@@ -1,0 +1,17 @@
+
+input[type="checkbox"]{
+        -webkit-appearance: none;
+            /* Remove default styles */
+            -moz-appearance: none;
+            appearance: none;
+        border: 2px solid red;
+}
+
+input[type='checkbox']:checked {
+            -webkit-appearance: none;
+                /* Remove default styles */
+                -moz-appearance: none;
+                appearance: none;
+    background-color: red;
+    /* Change background color when checked */
+}

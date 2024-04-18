@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homepage</title>
+    <link rel="stylesheet" href="../css/checkout.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/homepage.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="d-flex flex-row justify-content-around w-full">
+      <nav
+        class="border-bottom py-4 d-flex flex-row justify-content-around w-100"
+      >
+        <h2>Exclusive</h2>
+        <ul class="nav nav-underline">
+          <li class="nav-item">
+            <a
+              class="nav-link text-black"
+              aria-current="page"
+              href="./homepage.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="./about.html">About</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Sign Up</a>
+          </li>
+        </ul>
+
+        <div class="input-group form-outline d-flex flex-row w-25 gap-3">
+          <input
+            type="text"
+            class="form-control rounded"
+            placeholder="What are you looking for?"
+            aria-label="search"
+          />
+          <i class="bi bi-search search"></i>
+          <span
+            class="d-flex flex-row align-items-center gap-2"
+            style="scale: 1.2"
+          >
+            <a href="./productdetail.html"><i class="bi bi-heart"></i></a>
+            <!-- change linke to checkout -->
+            <a href="./productdetail.html"><i class="bi bi-cart2"></i></a>
+          </span>
+        </div>
+      </nav>
+    </header>
+    <main class="margin-bottom-xl">
+      <section
+        class="d-flex flex-row justify-content-between margin-left-xxl padding-top-xl"
+      >
+        <!-- left -->
+        <div>
+          <h1>Billing Details</h1>
+          <div class="d-flex flex-column gap-3">
+            <input
+              style="width: 300px"
+              type="text"
+              class="form-control"
+              id="Coupon-code"
+              placeholder="First Name"
+            />
+            <input
+              style="width: 300px"
+              type="text"
+              class="form-control"
+              id="Coupon-code"
+              placeholder="Company Name"
+            />
+            <input
+              style="width: 300px"
+              type="text"
+              class="form-control"
+              id="Coupon-code"
+              placeholder="Street address"
+            />
+
+            <input
+              style="width: 300px"
+              type="text"
+              class="form-control"
+              id="Coupon-code"
+              placeholder="Town/City"
+            />
+
+            <input
+              style="width: 300px"
+              type="text"
+              class="form-control"
+              id="Coupon-code"
+              placeholder="Phone Number"
+            />
+
+            <input
+              style="width: 300px"
+              type="text"
+              class="form-control"
+              id="Coupon-code"
+              placeholder="Email"
+            />
+
+            <input
+              style="width: 300px"
+              type="text"
+              class="form-control margin-bottom-md"
+              id="Coupon-code"
+              placeholder="Phone Number"
+            />
+          </div>
+          <span class="margin-top-md">
+            <input type="checkbox" class="form-check-input" id="save" />
+            <label class="form-check-label" for="save"
+              >Save this information for faster check-out next time</label
+            >
+          </span>
+        </div>
+        <!-- right  -->
+        <div style="margin-right: 25em">
+          <div class="d-flex flex-column align-items-left">
+            <img
+              src="../assects/photos/checkout/checkoutpage.PNG"
+              alt="checkout"
+            />
+            <span class="margin-bottom-md margin-top-md">
+              <input type="radio" class="form-check-input" id="Bank" />
+              <label class="form-check-label" for="Bank">Bank</label>
+            </span>
+            <span>
+              <input
+                type="radio"
+                class="form-check-input"
+                id="cash-on-delivery"
+              />
+              <label class="form-check-label" for="cash-on-delivery"
+                >Cash on delivery</label
+              >
+            </span>
+            <div class="d-flex flex-row h-25 margin-top-md gap-2">
+              <input
+                style="width: 300px"
+                type="text"
+                class="form-control"
+                id="Coupon-code"
+                placeholder="Coupon Code"
+              />
+
+              <button type="button" class="btn btn-outline-danger">
+                Apply Coupon
+              </button>
+            </div>
+            <button
+              type="button"
+              class="btn btn-outline-danger margin-top-md w-25"
+            >
+              Place Order
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="margin-top-xl">
+      <div style="width: 100%; height: 50%">
+        <img src="../assects/svg/Footer.svg" width="100%" alt="footer" />
+      </div>
+    </footer>
+  </body>
+</html>
