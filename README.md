@@ -4,7 +4,17 @@
 
 This project is an e-commerce website developed with just html css and bootstrap go here for a live view [Visit my live demo website](https://e-commerce-html-css.netlify.app)
 
+## photos
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+
 ## Features
+
+### view only
 
 - User authentication (signup, login, logout)
 - Product browsing
